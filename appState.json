@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5c24e0bf-8743-4ecf-947f-b92144232d2d": {
+        "id": "5c24e0bf-8743-4ecf-947f-b92144232d2d",
+        "parent": null,
+        "name": "NCIS4",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0e337890-cf42-4a3c-a2f8-e46c07f8d2a9",
+          "04054972-6e88-4461-80dd-19bb58b4a5ed"
+        ],
+        "isRemovable": false,
+        "filePath": "NCIS4"
+      },
+      "0e337890-cf42-4a3c-a2f8-e46c07f8d2a9": {
+        "id": "0e337890-cf42-4a3c-a2f8-e46c07f8d2a9",
+        "parent": "5c24e0bf-8743-4ecf-947f-b92144232d2d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NCIS4/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "04054972-6e88-4461-80dd-19bb58b4a5ed": {
+        "id": "04054972-6e88-4461-80dd-19bb58b4a5ed",
+        "parent": "5c24e0bf-8743-4ecf-947f-b92144232d2d",
+        "name": "sub",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a",
+          "5fedc3b2-da13-43f9-8f74-ded849b971d9"
+        ],
+        "isRemovable": true,
+        "filePath": "NCIS4/sub"
+      },
+      "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a": {
+        "id": "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a",
+        "parent": "04054972-6e88-4461-80dd-19bb58b4a5ed",
+        "name": "pf.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NCIS4/sub/pf.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "5fedc3b2-da13-43f9-8f74-ded849b971d9": {
+        "id": "5fedc3b2-da13-43f9-8f74-ded849b971d9",
+        "parent": "04054972-6e88-4461-80dd-19bb58b4a5ed",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NCIS4/sub/__init__.py"
+      }
+    },
+    "rootNode": "5c24e0bf-8743-4ecf-947f-b92144232d2d",
+    "openFiles": [
+      "0e337890-cf42-4a3c-a2f8-e46c07f8d2a9",
+      "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a"
+    ],
+    "currentFileId": "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "c4f4b9a5-b887-426e-b80e-ff60e4a72a9a",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/NCIS4/sub",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "NCIS4",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576577399724
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "NCIS4",
+      "url": "https://github.com/zgma-test/NCIS4"
+    }
+  }
+}
